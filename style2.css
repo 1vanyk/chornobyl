@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
-    background-color: #ffffff;
+    background-color: #140e08;
+    color: white;
 }
 
 header {
@@ -46,6 +47,11 @@ img {
     top: 230px;
 }
 
+img:hover {
+    width: 600px;
+    transition: 0.7s;
+}
+
 h2, h3 {
     text-align: left;
     font-size: 30px;
@@ -62,7 +68,17 @@ h2, h3 {
     right: 330px;
 }
 
+.mutant:hover {
+    width: 400px;
+    transition: 0.7s;
+}
+
 .mutant2 {
     top: 800px;
     right: 25px;
+}
+
+.mutant2:hover {
+    width: 400px;
+    transition: 0.7s;
 }
